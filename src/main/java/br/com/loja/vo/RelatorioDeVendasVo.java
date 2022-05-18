@@ -1,8 +1,8 @@
-package br.com.alura.loja.vo;
+package br.com.loja.vo;
 
 import java.time.LocalDate;
 
-//ESTA CLASE NÃO É UMA ENTIDADE, UM OBJETO DE VALOR, ELA REPRESENTA UM RELATORIO
+//ESTA CLASE Nï¿½O ï¿½ UMA ENTIDADE, UM OBJETO DE VALOR, ELA REPRESENTA UM RELATORIO
 public class RelatorioDeVendasVo {
 	
 	private String nomeProduto;

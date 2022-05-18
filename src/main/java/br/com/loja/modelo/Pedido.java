@@ -1,4 +1,4 @@
-package br.com.alura.loja.modelo;
+package br.com.loja.modelo;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -29,7 +29,7 @@ public class Pedido {
 	
 	private LocalDate data = LocalDate.now();
 
-	@ManyToOne(fetch = FetchType.LAZY)//LAZY SÓ CARREGA QUANDO FAZ O ACESSO
+	@ManyToOne(fetch = FetchType.LAZY)//LAZY Sï¿½ CARREGA QUANDO FAZ O ACESSO
 	private Cliente cliente;
 	
 	//RELACIONAMENTO BIDIRECIONAL, SALVA JUNTO O PEDIDO COM O ITEM_PEDIDO

@@ -1,12 +1,12 @@
-package br.com.alura.loja.dao;
+package br.com.loja.dao;
 
 import java.math.BigDecimal;
 import java.util.List;
 
 import javax.persistence.EntityManager;
 
-import br.com.alura.loja.modelo.Pedido;
-import br.com.alura.loja.vo.RelatorioDeVendasVo;
+import br.com.loja.modelo.Pedido;
+import br.com.loja.vo.RelatorioDeVendasVo;
 
 public class PedidoDao {
 
@@ -21,7 +21,7 @@ public class PedidoDao {
 	}
 	
 	public BigDecimal valorTotalVendido() {
-		String jpql = "SELECT SUM(p.valorTotal) FROM Pedido p";//CHAMANDO A FUNÇÃO SUM PARA FAZER A SOMA DOS PEDIDOS
+		String jpql = "SELECT SUM(p.valorTotal) FROM Pedido p";//CHAMANDO A FUNï¿½ï¿½O SUM PARA FAZER A SOMA DOS PEDIDOS
 		return em.createQuery(jpql, BigDecimal.class).getSingleResult();
 	}
 	

@@ -1,4 +1,4 @@
-package br.com.alura.loja.dao;
+package br.com.loja.dao;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -11,7 +11,7 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
-import br.com.alura.loja.modelo.Produto;
+import br.com.loja.modelo.Produto;
 
 public class ProdutoDao {
 
@@ -39,7 +39,7 @@ public class ProdutoDao {
 	}
 	
 	public List<Produto> buscarTodos() {
-		String jpql = "SELECT p FROM Produto p";//QUE É UM SQL TIPO ORIENTADO A OBJETO
+		String jpql = "SELECT p FROM Produto p";//QUE ï¿½ UM SQL TIPO ORIENTADO A OBJETO
 		return em.createQuery(jpql, Produto.class).getResultList();
 	}
 	

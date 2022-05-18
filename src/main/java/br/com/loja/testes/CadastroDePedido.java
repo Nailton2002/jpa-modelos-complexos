@@ -1,21 +1,21 @@
-package br.com.alura.loja.testes;
+package br.com.loja.testes;
 
 import java.math.BigDecimal;
 import java.util.List;
 
 import javax.persistence.EntityManager;
 
-import br.com.alura.loja.dao.CategoriaDao;
-import br.com.alura.loja.dao.ClienteDao;
-import br.com.alura.loja.dao.PedidoDao;
-import br.com.alura.loja.dao.ProdutoDao;
-import br.com.alura.loja.modelo.Categoria;
-import br.com.alura.loja.modelo.Cliente;
-import br.com.alura.loja.modelo.ItemPedido;
-import br.com.alura.loja.modelo.Pedido;
-import br.com.alura.loja.modelo.Produto;
-import br.com.alura.loja.util.JPAUtil;
-import br.com.alura.loja.vo.RelatorioDeVendasVo;
+import br.com.loja.dao.CategoriaDao;
+import br.com.loja.dao.ClienteDao;
+import br.com.loja.dao.PedidoDao;
+import br.com.loja.dao.ProdutoDao;
+import br.com.loja.modelo.Categoria;
+import br.com.loja.modelo.Cliente;
+import br.com.loja.modelo.ItemPedido;
+import br.com.loja.modelo.Pedido;
+import br.com.loja.modelo.Produto;
+import br.com.loja.util.JPAUtil;
+import br.com.loja.vo.RelatorioDeVendasVo;
 
 public class CadastroDePedido {
 

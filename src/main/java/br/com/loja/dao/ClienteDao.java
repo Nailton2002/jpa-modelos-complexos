@@ -1,8 +1,8 @@
-package br.com.alura.loja.dao;
+package br.com.loja.dao;
 
 import javax.persistence.EntityManager;
 
-import br.com.alura.loja.modelo.Cliente;
+import br.com.loja.modelo.Cliente;
 
 public class ClienteDao {
 
